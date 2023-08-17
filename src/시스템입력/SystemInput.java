@@ -32,6 +32,6 @@ public class SystemInput {
 //        String h = sc.next(); // 공백 기준으로 입력 받음
 //        String i = sc.nextLine(); // 줄바꿈. 문자 기준
 
-////
+
     }
 }
