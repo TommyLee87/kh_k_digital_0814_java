@@ -18,7 +18,7 @@ public class BitOperate {
         System.out.println(num1<<1); // 20
         System.out.println(num1>>1); // 5
 
-//
+////
 
 
     }
