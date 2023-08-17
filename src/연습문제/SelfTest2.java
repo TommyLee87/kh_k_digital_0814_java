@@ -13,9 +13,9 @@ public class SelfTest2 {
         int c = num % 10;
 
         if(a > b) {
-            System.out.println(Math.max(a, c));
+            System.out.println("제일 높은 숫자는 " + Math.max(a, c) + "입니다.");
         } else {
-            System.out.println(Math.max(b, c));
+            System.out.println("제일 높은 숫자는 " + Math.max(b, c) + "입니다.");
         }
 
     }
