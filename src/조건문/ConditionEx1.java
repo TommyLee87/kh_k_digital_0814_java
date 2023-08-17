@@ -22,13 +22,13 @@ public class ConditionEx1 {
 //                System.out.println(num + "은 100보다 작다.");
 //            }
 
-        System.out.print("문자를 입력 하세요 : ");
+        System.out.print("문자를 입력 하세요. : ");
         Scanner sc = new Scanner(System.in);
         char ch = sc.next().charAt(0);
         if (ch >= 'a' && ch <= 'z') {
-            System.out.println(ch + "는 소문자입니다.");
+            System.out.println(ch + "는 소문자 입니다.");
             } else if(ch >= 'A' && ch <= 'Z') {
-            System.out.println(ch + "는 대문자입니다.");
+            System.out.println(ch + "는 대문자 입니다.");
             } else {
             System.out.println(ch + "는 알파벳이 아닙니다.");
             }
