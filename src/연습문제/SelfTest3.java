@@ -37,10 +37,10 @@ public class SelfTest3 {
         }
          System.out.println(name + "님.");
          System.out.println(greeting);
-         System.out.println("아래와 같은 일정으로 " + title + "를 진행 하고자 하오니 오셔서 자리를 빛내 주시기 바랍니다.");
+         System.out.println("아래와 같은 일정으로 " + title + "를 진행 하고자 하오니 참석 하셔서 자리를 빛내 주시기 바랍니다.");
          System.out.println("=".repeat(5) + "행사 안내" + "=".repeat(5));
          System.out.println("행사 안내 : " + title);
-         System.out.println("일시 : " + date.substring(0,4) + "년" + month + "월" + date.substring(6,8)+ "일");
+         System.out.println("일시 : " + date.substring(0,4) + "년 " + month + "월 " + date.substring(6,8)+ "일");
          System.out.println("시간 : " + time + "시");
     }
 }
