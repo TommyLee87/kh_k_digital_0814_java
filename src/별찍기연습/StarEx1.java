@@ -1,4 +1,4 @@
-package 알고리즘문제_초급;
+package 별찍기연습;
 //별찍기 연습
 import java.util.Scanner;
 
