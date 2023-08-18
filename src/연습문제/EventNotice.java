@@ -2,7 +2,7 @@ package 연습문제;
 
 import java.util.Scanner;
 
-public class SelfTest3 {
+public class EventNotice {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("이름 : ");
