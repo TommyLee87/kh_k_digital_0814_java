@@ -22,7 +22,7 @@ public class SelfTest1 {
                 System.out.println("당신의 학점은 D 입니다.");
             else
                 System.out.println("당신의 학점은 F 입니다.");
-                break;
+            break;
             }
             }
         }
