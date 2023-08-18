@@ -11,19 +11,16 @@ public class CharReverse {
         System.out.print("문자를 입력하세요 : ");
         String text = sc.next();
 
-//        1. for문
+//      1. for문
         for(int i = text.length()-1; i > -1; i--) {
             System.out.print(text.charAt(i));
 
-//        2. while문
-//        int pos = text.length() -1;  //문자열의 시작위치(반전의 위치)
-//        while (pos > -1) {
-//            System.out.print(text.charAt(pos));
-//            pos--;
-
+//      2. while문
+//      int pos = text.length() -1;  //문자열의 시작위치(반전의 위치)
+//      while (pos > -1) {
+//          System.out.print(text.charAt(pos));
+//          pos--;
 
         }
-
-
     }
 }
