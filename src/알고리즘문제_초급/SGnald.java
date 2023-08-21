@@ -14,8 +14,8 @@ public class SGnald {
         System.out.print("가격 입력 : ");
         for(int i = 0; i<price.length; i++) {
             price[i] = sc.nextInt();
-
         }
+
         int minBurger = price[0]; // 햄버거 3개 중 가장 작은 값
         int minDrink = price[3]; // 음료수 2개 중 가장 작은 값
 
