@@ -3,7 +3,7 @@ package 다차원배열;
 
 public class DoubleArray {
     public static void main(String[] args) {
-        int[][] arr = new int [2][3]; // 0번 인덱스에서 0,1,2    // 1번 인덱스에서도 0,1,2
+        int[][] arr = new int [2][3]; // 0번 인덱스에서 0,1,2  // 1번 인덱스에서도 0,1,2
         int k = 10;
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
