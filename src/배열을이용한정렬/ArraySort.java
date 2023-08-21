@@ -8,7 +8,7 @@ public class ArraySort {
         int[] arr = {9,4,3,10,5,8,7,6,2,1};
         int tmp = 0; // 정렬을 위한 임시 공간
         for (int i = 0; i < arr.length; i++) {
-            for(int j = i; j <arr.length; j++) {
+            for(int j = i; j < arr.length; j++) {
                 if (arr[i] > arr[j]) {    //오름차순,  < 로 바꾸면 내림차순
                     tmp = arr[j];
                     arr[j] = arr[i];
