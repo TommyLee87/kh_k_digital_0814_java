@@ -61,6 +61,7 @@ public class MemberInfo {
     public void getInfo() {
         String[] genderStr = {"", "남성", "여성"};
         String[] jobsStr = {"", "학생", "회사원", "주부", "무직"};
+
         System.out.println("=".repeat(5) + " 회원정보 " + "=".repeat(5));
         System.out.println("이름 : " + name);
         System.out.println("나이 : " + age);
