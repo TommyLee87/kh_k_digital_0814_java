@@ -4,7 +4,7 @@ package 알고리즘문제_초급;
 // 찾은 값을 더하고 세트 메뉴 50원 할인 적용
 import java.util.Scanner;
 
-public class SGnald {
+public class SgNald {
     public static void main(String[] args) {
         // 5개의 값을 입력받기 위해 배열 생성
         int[] price = new int[5];
