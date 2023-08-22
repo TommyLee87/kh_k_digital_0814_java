@@ -13,7 +13,7 @@ public class PrimeSum {
         int n = sc.nextInt();
         int sum = 0;
         // 입력 받은 정수 미만의 소수를 찾기 위해 반복적으로 prime()메소드 호출
-        for(int i = 2; i < n; i++) sum += prime(i); // 2에서부터 입력받은 정수 미만 중
+        for(int i = 2; i < n; i++) sum += prime(i); // 2에서부터 입력받은 정수 미만 중 소수만 누적
         System.out.println(sum);
 
     }
