@@ -16,10 +16,10 @@ public class KMP {
         String name = sc.next();
 
         // 1. Split 사용
-//        String[] splitName = name.split("-");
-//        for(String e : splitName) {
-//            System.out.print(e.charAt(0));
-//        }
+        String[] splitName = name.split("-");
+        for(String e : splitName) {
+            System.out.print(e.charAt(0));
+        }
 
         // 2. charAt(index) 사용 (대문자 골라내기)
 //        for(int i = 0; i < name.length(); i++) {
