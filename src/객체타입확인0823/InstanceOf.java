@@ -2,6 +2,7 @@ package 객체타입확인0823;
 // instanceOf : 상속 관계가 성립하는지 확인하는 용도
 // 왼쪽 피연산자가 오른쪽 피연산자의 인스턴스인지 검사
 // 결과는 불리언 값(true 또는 false)으로 반환
+
 public class InstanceOf {
     public static void main(String[] args) {
         Parent parent = new Parent("부모");
