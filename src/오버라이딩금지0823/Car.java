@@ -21,13 +21,14 @@ class SportsCar extends Car {
         this.color = "Red";
     }
 //    @Override  // 문법적으로 관계 체크, 부모가 가지고 있는지 알수 있음.
-//        void accelerator() {
-//        super.accelerator();
-//        System.out.println("차의 속도를 200% 증가 시킵니다.");
+//    void accelerator() {
+//    super.accelerator();
+//    System.out.println("차의 속도를 200% 증가 시킵니다.");
 //    }
-//        void breakPanel () {
-//        super.breakPanel();
-//        System.out.println("차의 속도를 200% 감소 시킵니다.");
+//
+//    void breakPanel () {
+//    super.breakPanel();
+//    System.out.println("차의 속도를 200% 감소 시킵니다.");
 //    }
 
     int getSpeed() {
