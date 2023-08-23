@@ -1,5 +1,5 @@
 package 알고리즘문제_중급;
-// 첫 글자만 따오기
+// 첫 글자만 따오기 0823
 // Knuth-Morris-Pratt 를 입력 받으면 첫 글자만 따서 KMP로 출력
 // Mirko-Slavko 를 입력 받으면 MS로 출력
 
