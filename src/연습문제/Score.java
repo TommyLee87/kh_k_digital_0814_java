@@ -7,7 +7,7 @@ public class Score {
         Scanner sc = new Scanner(System.in);
 
         while (true) {
-            System.out.print("성적를 입력 하세요 : ");
+            System.out.print("성적을 입력 하세요 : ");
             int score = sc.nextInt();
 
             if(score < 0 || score > 100) continue;
