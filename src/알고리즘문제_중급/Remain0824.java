@@ -15,6 +15,6 @@ public class Remain0824 {
             arr[input % 42] = 1; // 입력 받은 값을 42로 나눈 나머지에 해당하는 인덱스에 1을 대입
         }
         for(int val : arr) cnt += val;
-        System.out.println(cnt);
+        System.out.println(cnt); //
     }
 }
