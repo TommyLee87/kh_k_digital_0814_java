@@ -28,7 +28,7 @@ public class BuyerEx {
                     break;
                 case 4 :
                     return;
-                default: System.out.println("해당 제품은 판매하고 있지 않습니다.");
+                default: System.out.println("명시된 품목 중에서 선택해주세요.");
             }
         }
 
