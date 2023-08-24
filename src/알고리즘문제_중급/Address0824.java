@@ -21,7 +21,7 @@ public class Address0824 {
                 sum += size[num.charAt(i) - '0'] + 1; // 1을 더하는 이유는 각 숫자마자 여백 1칸
             }
             System.out.println(sum + 1); // 제잎 앞의 공백 1칸
-            sum = 0; // 다음 계산을 위해 sum 변수를 초기화
+            sum = 0; // 다음 계산을 위해 sum 변수를 초기화 함
 
         }
 
