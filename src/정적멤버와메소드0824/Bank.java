@@ -1,4 +1,4 @@
-package 정적멤버와메소드;
+package 정적멤버와메소드0824;
 
 public class Bank {
     private static int count = 0; // 정적 필드, 객체로 생성되지 않음

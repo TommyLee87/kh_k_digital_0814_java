@@ -1,4 +1,4 @@
-package 정적멤버와메소드;
+package 정적멤버와메소드0824;
 
 public class StaticMain {
     public static void main(String[] args) {
