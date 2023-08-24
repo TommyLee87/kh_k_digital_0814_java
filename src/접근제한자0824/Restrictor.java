@@ -1,4 +1,4 @@
-package 접근제한자;
+package 접근제한자0824;
 
 public class Restrictor {
     public void seoul() {
