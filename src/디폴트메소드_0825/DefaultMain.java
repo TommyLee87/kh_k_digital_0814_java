@@ -12,13 +12,13 @@ public class DefaultMain {
             rc = new Audio();
             rc.turnON();
             rc.setVolume(20);
-            rc.setMute(true);
+            rc.setMute(false);
             RemoteControl.changeBattery();
         } else {
             rc = new Television();
             rc.turnON();
             rc.setVolume(30);
-            rc.setMute(true);
+            rc.setMute(false);
         }
 
 
