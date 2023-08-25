@@ -7,12 +7,10 @@ public class Audio implements RemoteControl {
     public void turnON() {
         System.out.println("Audio를 켭니다.");
     }
-
     @Override
     public void turnOFF() {
         System.out.println("Audio를 끕니다.");
     }
-
     @Override
     public void setVolume(int vol) {
         if (vol > RemoteControl.MAX_VOLUME) {
