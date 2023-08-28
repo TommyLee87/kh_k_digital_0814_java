@@ -1,4 +1,4 @@
-package 미니프로젝트_자동차.Tver;
+package $미니프로젝트_자동차.Tver;
 
 public class Sedan extends Car {
     public Sedan(String name) {

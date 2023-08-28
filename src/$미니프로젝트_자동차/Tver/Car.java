@@ -1,4 +1,4 @@
-package 미니프로젝트_자동차.Tver;
+package $미니프로젝트_자동차.Tver;
 
 // 상속을 주기 위한 Car class 생성
 public abstract class Car {
