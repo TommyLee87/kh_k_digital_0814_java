@@ -10,4 +10,3 @@ public class SportsCar extends Car {
         this.fuelTankSize = fuelTankSize;
     }
 }
-
