@@ -15,3 +15,5 @@ public class SportsCar extends Car {
         if (isMode) maxSpeed *= 1.2;
     }
 }
+
+

@@ -31,3 +31,5 @@ public class CarMain {
         System.out.println("총 이동 시간 :" + car.getMovingTime(dist[city], moveCnt));
     }
 }
+
+

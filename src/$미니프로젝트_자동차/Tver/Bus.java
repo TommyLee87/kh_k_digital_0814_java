@@ -1,4 +1,4 @@
-package 미니프로젝트_자동차.Tver;
+package $미니프로젝트_자동차.Tver;
 
 public class Bus extends Car {
     public Bus(String name) {
@@ -15,3 +15,4 @@ public class Bus extends Car {
         if (isMode) fuelTank += 30;
     }
 }
+
