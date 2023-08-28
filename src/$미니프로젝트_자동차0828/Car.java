@@ -73,4 +73,3 @@ public abstract class Car {
         this.dis = dis;
     }
 }
-//

@@ -10,4 +10,3 @@ public class Sedan extends Car {
         this.fuelTankSize = fuelTankSize;
     }
 }
-//
