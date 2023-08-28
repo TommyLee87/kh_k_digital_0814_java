@@ -49,7 +49,7 @@ public class CarMain {
                 car.setDis(300);
                 break;
         }
-        if (sel4 == 1) car.setMode();
+        if (sel4 == 1) ;
 
         if (sel2 > 0 && sel2 <= 100) {
             car.setInput(sel2);
