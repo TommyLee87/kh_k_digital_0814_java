@@ -13,10 +13,7 @@ public class MathClass {
         Random ran = new Random();
         System.out.println(ran.nextInt(100));  // 0 ~ 99
 
-//        (int)(Math.random() * 6);       // 0 ~ 5
-//        ((int)(Math.random() * 6) + 1); // 1 ~ 6
-//        ((int)(Math.random() * 6) + 3); // 3 ~ 8
-
+//  abs() : 전달된 값을 양수 값으로 반환
         System.out.println(Math.abs(10));    // 10
         System.out.println(Math.abs(-10));   // 10
         System.out.println(Math.abs(-3.14)); // 3.14
