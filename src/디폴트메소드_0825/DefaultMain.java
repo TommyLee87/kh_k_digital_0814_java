@@ -21,6 +21,27 @@ public class DefaultMain {
             rc.setMute(false);
         }
 
+        //익명객체 추가 0829
+        RemoteControl ps5 = new RemoteControl() {
+            @Override
+            public void turnON() {
+                System.out.println("플스5 ON");
+            }
+
+            @Override
+            public void turnOFF() {
+                System.out.println("플스5 OFF");
+
+            }
+
+            @Override
+            public void setVolume(int vol) {
+
+            }
+        };
+        ps5.turnON();
+        ps5.turnOFF();
+
 
     }
 }
