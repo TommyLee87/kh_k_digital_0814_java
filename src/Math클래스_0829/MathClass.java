@@ -2,6 +2,7 @@ package Math클래스_0829;
 
 import java.util.Random;
 
+
 // Math 클래스는 수학에서 자주 사용하는 상수들과 함수를 미리 구현해 놓은 클래스
 // Math 클래스의 모든 메소드는 static이므로 객체 생성없이 바로 사용
 // java.lang 패키지에 포함되어 있어 import가 필요 없음
@@ -40,6 +41,5 @@ public class MathClass {
         System.out.println(Math.min(3.14, 3.14159)); // 3.14
 
     }
-
 
 }
