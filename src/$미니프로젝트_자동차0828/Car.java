@@ -64,6 +64,9 @@ public abstract class Car {
         System.out.println("총 주유 횟수 : " + count);
         System.out.println("총 시간 : " + getMovingTime(dis, inCount));
     }
+    void setMode() {
+        speed += (int) (speed * 0.2f);
+    }
 
     public void setInput(int input) {
         this.input = input;
