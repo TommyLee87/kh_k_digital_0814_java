@@ -9,5 +9,9 @@ public class DoubleInterface {
         btn.touch();
         btn.setOnClickListener(new MessageListener());
         btn.touch();
+
+        //Car car = new Car();
     }
 }
+//class Car extends Object {}
+
