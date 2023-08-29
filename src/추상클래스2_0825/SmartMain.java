@@ -6,5 +6,17 @@ public class SmartMain {
         smartPhone.setPower(true);
         smartPhone.internet();
         smartPhone.call();
+
+
+        //익명객체 추가 0829
+        Phone phone = new Phone("목업") {
+
+            @Override
+            void call() {
+                System.out.println("목업폰이라 통화가 안되요ㅠㅠ");
+            }
+        };
+        phone.call();
+
     }
 }
