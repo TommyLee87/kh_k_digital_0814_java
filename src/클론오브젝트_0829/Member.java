@@ -1,4 +1,4 @@
-package 클론오브젝트;
+package 클론오브젝트_0829;
 // clone()은 Cloneable의 인터페이스를 상속 받은 경우에만 가능
 
 public class Member implements Cloneable {

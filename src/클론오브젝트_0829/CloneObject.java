@@ -1,4 +1,4 @@
-package 클론오브젝트;
+package 클론오브젝트_0829;
 
 public class CloneObject {
     public static void main(String[] args) {
