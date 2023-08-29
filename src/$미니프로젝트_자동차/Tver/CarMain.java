@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CarMain {
     public static void main(String[] args) {
 //                          //  부산, 대전, 강릉, 광주
-        final int[] dist = { 0, 400, 150, 200, 300};
+        final int[] dist = {0, 400, 150, 200, 300};
         Car car = null; // 부모 클래스의 참조 변수를 만드는데 초기 값으로 null 대입
         Scanner sc = new Scanner(System.in);
         System.out.print("이동 지역 [1]부산 [2]대전 [3]강릉 [4]광주 : ");
@@ -24,7 +24,7 @@ public class CarMain {
             default: System.out.println("차량 선택이 잘 못 되었습니다.");
         }
         car.setMode(isMode); // 모드 ON/OFF
-        int moveCnt = car.getMovingCnt(passCnt); // 승객의 수로 이동 횟수를 무하는 메소드
+        int moveCnt = car.getMovingCnt(passCnt); // 승객의 수로 이동 횟수를 구하는 메소드
         System.out.println("=".repeat(7) + car.getName() + "=".repeat(7));
         System.out.println("총 비용 :" + car.getToTalCost(dist[city], moveCnt));
         System.out.println("총 주유 횟수 :" + car.getRefuelCnt(dist[city], moveCnt));
