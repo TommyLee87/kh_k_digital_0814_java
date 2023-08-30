@@ -12,8 +12,12 @@ public class ArrayListEx1 {
         menuInfoList.add(menuInfo1);
         menuInfoList.add(new MenuInfo("Latte", 4000, "coffee", true));
         menuInfoList.add(new MenuInfo("Espresso", 2500, "coffee", true));
+        //향상된 for문 : 배열이나 Collection 클래스 자식들
         for(MenuInfo menu : menuInfoList) {
             System.out.println(menu.getMenuInfo());
+        }
+        for(int i= 0; i < menuInfoList.size(); i++) {
+            System.out.println(menuInfoList.get(i).getMenuInfo());
         }
     }
 }
