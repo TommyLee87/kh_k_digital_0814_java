@@ -26,6 +26,7 @@ class MenuInfo {
         this.category = category;
         this.isTax = isTax;
     }
+
     public String getMenuInfo() {
         return "{"+"\"name\":"+name+","+"\"price\":"+price+","+"\"isTax\":"+isTax+"}";
     }
