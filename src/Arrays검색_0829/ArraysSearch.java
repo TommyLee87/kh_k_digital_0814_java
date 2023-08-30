@@ -18,7 +18,8 @@ public class ArraysSearch {
         Arrays.sort(arr);
         for (int val : arr) System.out.print(val + " ");
         System.out.println();
-        int result = Arrays.binarySearch(arr, key); // 정렬된 배열을 이분 검색함
+        int result = Arrays.binarySearch(arr, key);
+        //binarySearch(이분 검색) : 배열 내에서 중간 값과 찾으려는 값을 비교하면서 범위를 절반씩 줄여나가는 방식
 
         if (result >= 0) {
             System.out.println(result); // 인덱스가 넘어 옴
