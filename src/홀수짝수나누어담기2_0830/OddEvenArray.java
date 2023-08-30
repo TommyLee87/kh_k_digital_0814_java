@@ -14,24 +14,25 @@ import java.util.Scanner;
 
 public class OddEvenArray {
     public static void main(String[] args) {
-//        홀수짝수나누어담기_0830.OddEvenFunc oddEvenFunc = new OddEvenFunc();
-//        oddEvenFunc.inputFunc();
-//        oddEvenFunc.oddEvenCalc();
-//        oddEvenFunc.oddEvenOutput();
+        OddEvenFunc oddEvenFunc = new OddEvenFunc();
+        oddEvenFunc.inputFunc();
+        oddEvenFunc.oddEvenCalc();
+        oddEvenFunc.oddEvenOutput();
 
-        Scanner sc = new Scanner(System.in);
-        List<Integer> list = new ArrayList<>();
-        System.out.println("정수 입력 : ");
-        for (int i = 0; i < 7; i++) list.add(sc.nextInt());
-        System.out.print("홀수 : ");
-        list.stream()
-                .filter(n->n % 2 != 0)
-                .forEach(e->System.out.print(e+ " "));
-        System.out.println();
-        System.out.print("짝수 : ");
-        list.stream()
-                .filter(n->n % 2 == 0)
-                .forEach(e->System.out.print(e+ " "));
+          // Stream으로 풀기
+//        Scanner sc = new Scanner(System.in);
+//        List<Integer> list = new ArrayList<>();
+//        System.out.println("정수 입력 : ");
+//        for (int i = 0; i < 7; i++) list.add(sc.nextInt());
+//        System.out.print("홀수 : ");
+//        list.stream()
+//                .filter(n->n % 2 != 0)
+//                .forEach(e->System.out.print(e+ " "));
+//        System.out.println();
+//        System.out.print("짝수 : ");
+//        list.stream()
+//                .filter(n->n % 2 == 0)
+//                .forEach(e->System.out.print(e+ " "));
         }
     }
 
