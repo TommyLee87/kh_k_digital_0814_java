@@ -15,7 +15,7 @@ public class ArraysSort {
                 else {
                     if (o1.length() == o2.length()) { // 길이가 같으면 사전 순 정렬 조건
 
-                        return o1.compareTo(o2); //
+                        return o1.compareTo(o2); // 두 번째가 사전 순서상 앞에 있으면 양수
                     }
                     return -1; // 현 상태 유지
                 }
