@@ -12,8 +12,8 @@ public class StringToken {
         Scanner sc = new Scanner(System.in);
         System.out.print("이름을 / 기준으로 입력하세요 : ");
         String names = sc.nextLine();
-         // 1. StringTokenizer
-        StringTokenizer st = new StringTokenizer(names,"/");
+        // 1. StringTokenizer
+        StringTokenizer st = new StringTokenizer(names, "/");
         String[] nameStr = new String[st.countTokens()];
         int idx = 0;
         while (st.hasMoreTokens()) {
@@ -21,10 +21,9 @@ public class StringToken {
         }
         for (String e : nameStr) System.out.print(e + " ");
 
-//        // 2. Split
+        // 2. Split (편리하다)
 //        String[] nameStr = names.split("/");
 //        for (String e : nameStr) System.out.print(e + " ");
-
 
     }
 }
