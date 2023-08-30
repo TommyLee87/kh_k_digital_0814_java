@@ -18,6 +18,7 @@ class MenuInfo {
     String name;
     int price;
     String category;
+    String description;
     boolean isTax;
 
     public MenuInfo(String name, int price, String category, boolean isTax) {
