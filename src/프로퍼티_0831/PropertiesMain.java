@@ -14,7 +14,7 @@ public class PropertiesMain {
     public static void main(String[] args) throws IOException {
         Properties properties = new Properties();
         String path = PropertiesMain.class.getResource("./database.properties").getPath();
-        path = URLDecoder.decode(path, StandardCharsets.UTF_8); // 한글에 대한 처리를 위해서
+        path = URLDecoder.decode(path, "utf-8"); // 한글에 대한 처리를 위해서
         properties.load(new FileReader(path));
         String driver = properties.getProperty("driver");
         String url = properties.getProperty("url");
