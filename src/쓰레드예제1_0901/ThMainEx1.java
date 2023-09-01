@@ -5,12 +5,12 @@ public class ThMainEx1 {
     public static void main(String[] args) {
         Thread testTh = new CustomThread();
         testTh.start();
-
+        System.out.println("Main에서 찍어봅니다.");
 
         Runnable runTask = new InterThread(); // 작업 내용을 가지고 있지만 실제 쓰레드는 아님
         Thread runTh1 = new Thread(runTask);
         runTh1.start();
-        System.out.println("Main에서 찍어봅니다.");
+
     }
 }
 
