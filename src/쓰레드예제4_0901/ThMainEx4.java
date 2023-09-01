@@ -16,7 +16,7 @@ public class ThMainEx4 {
 }
 
 class RunTread extends Thread {
-//    private boolean stop; // stop 플래그 설정
+//    private boolean stop = false; // stop 플래그 설정
 //
 //    public void setStop(boolean stop) {
 //        this.stop = stop;
