@@ -1,4 +1,4 @@
-package 예외처리기본_0904;
+package 예외처리1_기본_0904;
 
 public class ExceptionBasic {
     public static void main(String[] args) {
