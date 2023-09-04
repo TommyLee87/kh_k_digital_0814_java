@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
+import java.util.stream.IntStream;
 
 // 반복자 스트림 forEach() : 내부 반복자. 스트림 요소에 대한 순차 접근을 제공하며 최종 연산에 해당
 public class StreamEx2 {
@@ -18,9 +19,12 @@ public class StreamEx2 {
         double average = list.stream()// 스트림 생성
                 .mapToInt(Student::getScore) // 메소드 참조, 중간 연산
                 .average() // 중간 연산
-                .getAsDouble(); // 최종 연산
+                .orElse(0.0); // 만약 스트림이 비어 있으면 0.0으로 반환
 
         System.out.println("평균 점수 : " + average);
+
+        IntStream stream = IntStream.rangeClosed(1, 100); // 1 ~ 100까지로 구성된 정수 스트림 생성
+        System.out.println("합계 : " + stream.sum());
 
     }
 }
