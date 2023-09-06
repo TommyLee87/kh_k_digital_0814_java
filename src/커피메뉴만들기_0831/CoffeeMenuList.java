@@ -1,5 +1,9 @@
 package 커피메뉴만들기_0831;
 
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -8,9 +12,10 @@ import java.util.Scanner;
 public class CoffeeMenuList {
     // 문자열로 만들어진 key와 객체를
     static Map<String, MenuInfo> map = new HashMap<>();
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         makeMenu();
         selectMenu();
+
 
     }
     static void makeMenu() {
@@ -19,7 +24,7 @@ public class CoffeeMenuList {
         map.put("Latte", new MenuInfo("Latte", 4000, "Coffee", "넘나 맛있는 커피"));
 
     }
-    static void selectMenu() {
+    static void selectMenu() throws IOException {
         Scanner sc = new Scanner(System.in);
         String key = "";
         while (true) {
@@ -95,7 +100,13 @@ public class CoffeeMenuList {
 
                 case 6 :
                     System.out.println("메뉴를 종료합니다.");
-                    System.exit(0); // 강제종료, 보통은 return; 쓴다.
+                    FileOutputStream fos = new FileOutputStream("src/커피메뉴만들기_0831/coffee.bin");
+                    ObjectOutputStream oos = new ObjectOutputStream(fos);
+                    oos.writeObject(map);
+                    oos.flush();
+                    oos.close();
+                    fos.close();
+                    return;
 
                 default:System.out.println("선택하신 메뉴가 없습니다.");
             }
