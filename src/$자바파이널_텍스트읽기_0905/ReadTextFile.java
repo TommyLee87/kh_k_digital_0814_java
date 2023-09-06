@@ -13,21 +13,17 @@ public class ReadTextFile {
 
         Scanner sc = new Scanner(inputStream);
         while (sc.hasNext()) {
-            String[] linesplit = sc.nextLine().split(" ");
-            treeSet.add(new StudentInfo (linesplit[0],
-                    Integer.parseInt(linesplit[1]
-                    + Integer.parseInt(linesplit[2])
-                    + Integer.parseInt(linesplit[3]);
-
-
+            String[] lineSplit = sc.nextLine().split(" ");
+            treeSet.add(new StudentInfo(lineSplit[0],
+                    Integer.parseInt(lineSplit[1])
+                            + Integer.parseInt(lineSplit[2])
+                            + Integer.parseInt(lineSplit[3])));
         }
-        for(StudentInfo e : inputStream) {
-
+        for(StudentInfo e : treeSet) {
+            System.out.println(e.getName() + " : " + e.getTotal());
         }
-
-
-
-
     }
 }
+
+
 
